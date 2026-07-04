@@ -2,9 +2,137 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Amanda Seacrist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroPhoenix | Home</title>
+    <!-- Google Fonts Integration -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=DM+Sans:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to Amanda Seacrist’s Homepage</h1>
+
+    <!-- Global Navigation Header -->
+    <header class="global-header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="images/logo.png" alt="NeuroPhoenix Logo" class="site-logo">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Say Hi!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <p class="eyebrow">WELCOME TO NEUROPHOENIX</p>
+            <h1>YOU BELONG <span class="accent-text">RIGHT HERE.</span></h1>
+            <p class="hero-subtext">A supportive, educational space for autistic and ADHD individuals — and everyone who wants to better understand the neurodivergent experience.</p>
+            <div class="cta-buttons">
+                <a href="#purpose" class="btn btn-primary">EXPLORE &rarr;</a>
+                <a href="about.html" class="btn btn-secondary">LEARN MORE</a>
+            </div>
+        </section>
+
+        <!-- Purpose Statement Section -->
+        <section id="purpose" class="purpose-section container grid-2-col">
+            <div class="purpose-title">
+                <span class="section-tag">Our Purpose</span>
+                <h2>WHY WE EXIST.</h2>
+            </div>
+            <div class="purpose-body quote-block">
+                <p>NeuroPhoenix is to provide a supportive, educational, and empowering resource for autistic and ADHD individuals, as well as those seeking to better understand neurodiversity. We exist to help promote understanding, confidence, and provide a greater sense of belonging for neurodivergent individuals and their communities.</p>
+            </div>
+        </section>
+
+        <!-- Mission Statement Canvas -->
+        <section class="mission-canvas pink-bg">
+            <div class="container">
+                <span class="section-tag invert">Our Mission</span>
+                <h2 class="large-headline">RISING ABOVE CHALLENGES, EMBRACING AUTHENTICITY.</h2>
+                <div class="grid-3-col pillars">
+                    <div class="pillar">
+                        <h3>01 - Understand</h3>
+                        <p>Diving into complex issues such as ableism, trauma, communication differences, and lived experiences.</p>
+                    </div>
+                    <div class="pillar">
+                        <h3>02 - Empower</h3>
+                        <p>Providing research-based information and coping strategies to help navigate everyday structural challenges.</p>
+                    </div>
+                    <div class="pillar">
+                        <h3>03 - Belong</h3>
+                        <p>Building a community spaces that emphasizes resilience, growth, and the confidence to stop masking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Audience Section -->
+        <section class="audience-section container">
+            <div class="centered-header">
+                <span class="section-tag">Who This Is For</span>
+                <h2>THIS SPACE WAS MADE FOR YOU IF YOU ARE...</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="audience-grids">
+                <h3>PRIMARY AUDIENCE</h3>
+                <div class="grid-2-col audience-group">
+                    <div class="audience-card">
+                        <h4>Autistic & ADHD Individuals</h4>
+                        <p>Teens and adults navigating Level 1 Autism Spectrum Disorder, ADHD, executive dysfunction, or similar support needs.</p>
+                    </div>
+                    <div class="audience-card">
+                        <h4>Those Newly Discovering Neurodivergence</h4>
+                        <p>People seeking deep discussions about masking, burnout, self-advocacy, and processing personal trauma history.</p>
+                    </div>
+                </div>
+
+                <h3>SECONDARY AUDIENCE</h3>
+                <div class="grid-2-col audience-group">
+                    <div class="audience-card">
+                        <h4>Families, Educators & Allies</h4>
+                        <p>Parents, friends, and employers wanting to bypass stereotypes and implement truly meaningful support paths.</p>
+                    </div>
+                    <div class="audience-card">
+                        <h4>Those Seeking Deeper Understanding</h4>
+                        <p>Mental health practitioners and communities exploring real-world lived intersections of neurodiversity and resilience.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="final-cta">
+                <p>Sound like you? You're in exactly the right place.</p>
+                <a href="contact.html" class="btn btn-primary">SAY HI! &rarr;</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Footer -->
+    <footer class="global-footer">
+        <div class="footer-container">
+            <img src="images/logo.png" alt="NeuroPhoenix Logo" class="footer-logo">
+            <nav class="footer-nav">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT ME</a>
+                <a href="blog.html">BLOG</a>
+                <a href="contact.html">SAY HI!</a>
+            </nav>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram"><img src="images/instagram.svg" alt=""></a>
+                <a href="#" aria-label="Facebook"><img src="images/facebook.svg" alt=""></a>
+                <a href="#" aria-label="YouTube"><img src="images/youtube.svg" alt=""></a>
+            </div>
+            <p class="copyright">&copy; 2026 NeuroPhoenix</p>
+        </div>
+    </footer>
+
 </body>
 </html>
