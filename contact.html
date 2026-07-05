@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroPhoenix | Say Hi!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=DM+Sans:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="global-header">
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="NeuroPhoenix Logo" class="site-logo"></a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Say Hi!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-banner-sub container centered-hero">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h1>SAY <span class="accent-text">HI!</span></h1>
+            <p class="hero-subtext">Whether you want to share your own phoenix story, ask a question, or simply find a connection point, my inbox is open.</p>
+        </section>
+
+        <!-- Form Section -->
+        <section class="container form-section">
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Your email address">
+                </div>
+
+                <div class="form-group">
+                    <label for="identity">I am visiting as a(n):</label>
+                    <select id="identity" name="identity">
+                        <option value="neurodivergent">Neurodivergent Individual</option>
+                        <option value="parent-family">Parent / Family Member</option>
+                        <option value="educator-employer">Educator / Employer</option>
+                        <option value="ally">Ally / Friend</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Type your message here..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">SEND MESSAGE &rarr;</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="global-footer">
+        <div class="footer-container">
+            <img src="images/logo.png" alt="NeuroPhoenix Logo" class="footer-logo">
+            <nav class="footer-nav">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT ME</a>
+                <a href="blog.html">BLOG</a>
+                <a href="contact.html">SAY HI!</a>
+            </nav>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram"><img src="images/instagram.svg" alt=""></a>
+                <a href="#" aria-label="Facebook"><img src="images/facebook.svg" alt=""></a>
+                <a href="#" aria-label="YouTube"><img src="images/youtube.svg" alt=""></a>
+            </div>
+            <p class="copyright">&copy; 2026 NeuroPhoenix</p>
+        </div>
+    </footer>
+
+</body>
+</html>
